@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #c89f9c;
+    justify-content: center;
+}
+
+form {
+    height: 550px;
+    width: 450px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 35%;
+    margin: auto;
+}
+
+.formulario {
+    padding-top: 35%;
+}
+
+input {
+    border: solid #9d8189 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-submit {
+    background-color: #eddcd2;
+    height: 55px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 220;
+    margin-top: 25px;
+    font-size: 25px;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Validacion Contraseña</title>
+</head>
+<div class="centrar">
+
+    <body>
+
+        <div class="formulario">
+            <FORM name=formclave>
+
+
+                <div id="form" onkeypress="enterEnviar(event);">
+                    <div id="resultado"></div>
+                    <div>
+                        <input type="password" placeholder="Contraseña" id="pass">
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Repetir contraseña" id="pass2">
+                    </div>
+                    <div>
+                        <input type="submit" onclick="validarContraseña()" class="btn-submit" value="Verificar">
+                    </div>
+                    <div class="info">
+                        <p>Pulse ENTER para verificar.</p>
+                    </div>
+                </div>
+            </FORM>
+        </div>
+</div>
+<script src="index.js"></script>
+
+</body>
+
+</html>
